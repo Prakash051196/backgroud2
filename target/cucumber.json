@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19451319500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "Testscript.i_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1138538900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit username and password",
+            "match": {
+              "location": "Testscript.i_submit_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98355400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be logged in",
+            "match": {
+              "location": "Testscript.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Search a product and add the first product to the User basket",
+        "description": "",
+        "id": "test-background-feature;search-a-product-and-add-the-first-product-to-the-user-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User search for Lenovo Laptop",
+            "match": {
+              "location": "Testscript.user_search_for_Lenovo_Laptop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Add the first laptop that appears in the search result to the basket",
+            "match": {
+              "location": "Testscript.add_the_first_laptop_that_appears_in_the_search_result_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User basket should display with added item",
+            "match": {
+              "location": "Testscript.user_basket_should_display_with_added_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17815231500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "Testscript.i_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 547727300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit username and password",
+            "match": {
+              "location": "Testscript.i_submit_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74180700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be logged in",
+            "match": {
+              "location": "Testscript.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Navigate to a product and add the same to the User basket",
+        "description": "",
+        "id": "test-background-feature;navigate-to-a-product-and-add-the-same-to-the-user-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User navigate for Lenovo Laptop",
+            "match": {
+              "location": "Testscript.user_navigate_for_Lenovo_Laptop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Add the laptop to the basket",
+            "match": {
+              "location": "Testscript.add_the_laptop_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User basket should display with added item",
+            "match": {
+              "location": "Testscript.user_basket_should_display_with_added_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Background Feature",
+    "description": "Description: The purpose of this feature is to test the Background keyword",
+    "id": "test-background-feature",
+    "keyword": "Feature",
+    "uri": "Feature6/background.feature",
+    "tags": []
+  }
+]
